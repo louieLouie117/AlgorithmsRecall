@@ -14,3 +14,19 @@ function findNeedle(hayStack) {
   
   // your code here
 }
+
+
+// Thursday April 29-----------------------
+// how much water
+function litres(time) {
+  
+    let water = 0.5
+    
+    let litresDrinked = time * water
+    let value = Math.floor(litresDrinked);
+    
+    console.log(value)
+    
+    
+    return value;
+  }

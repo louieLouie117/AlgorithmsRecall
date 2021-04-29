@@ -9,3 +9,14 @@ def find_needle(hayStack):
             return found
     # your code here
     
+
+
+# Thursday April 29----------------------------
+import math
+
+def litres(time):
+    water = 0.5
+    litresDrinked = time * water
+    value = math.floor(litresDrinked)
+    print(value)
+    return value
