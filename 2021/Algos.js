@@ -63,3 +63,25 @@ function litres(time) {
     
     // Good Luck!
   }
+
+
+  // November 1 2021 Extract the domain name from a URL
+
+  function domainName(url){
+    //your code here
+    console.log(url)
+    let dName = url
+    dName = dName.replace("http://", "");
+    dName = dName.replace("https://", "");
+    dName = dName.replace(".com", "");
+    dName = dName.replace(".co.jp", "");
+    dName = dName.replace(".ru", "");
+    dName = dName.replace("www.", "");
+    
+  
+    console.log(dName)
+   
+    return dName;
+    
+   
+  }
