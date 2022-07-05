@@ -1,8 +1,8 @@
 // Variables--------------------------------------------
-var item1 = "hello"; //String 
-var item4 = 20; // Numbers
-var item7 = true; // Boolean
-var item11 = a; // Assignment  
+let item1 = "hello"; //String 
+let item4 = 20; // Numbers
+let item7 = true; // Boolean
+let item11 = a; // Assignment  
 
 let item2 = "programing"; //String 
 let item5 = 25; // Numbers
@@ -19,7 +19,7 @@ const item13 = c; // Assignment
 
 //Store multiple items---------------------------------
 // List
-var array = ["item1", 3, true, item1]; 
+let array = ["item1", 3, true, item1]; 
 let array = ["luis", 30, false];
 const arrayConst = ["item1", 3, true, item1];
 
@@ -35,8 +35,10 @@ console
 
 // Loops:----------------------------------------------
 
-for(var i = 0; i < ar.length; i++){
+for(let i = 0; i < ar.length; i++){
     // code block to be executed
+    console.log(ar[i])
+
     return
 };
 
